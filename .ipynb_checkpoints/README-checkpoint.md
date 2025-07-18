@@ -26,4 +26,3 @@
 
 Thanks for visiting.  
 I'll continue updating this portfolio with new learnings and projects.
-2025-07-18
