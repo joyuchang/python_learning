@@ -19,8 +19,10 @@
 ### practice_sets  
 > Mixed practice sets.  
 
-### projects  
+### projects **[WIP]**
 > Mini data anaylysis projects with real-world or industry-inspired context (currently in planning).  
+> - Planned folder for future data analysis projects.
+> - Currently empty and not yet added to the repository.
 
 ### debug_notebook
 
