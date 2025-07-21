@@ -28,23 +28,11 @@
 > Real-world machine learning projects from Kaggle competitions (in progress).  
 This folder includes structured project folders for hands-on practice using real competition datasets.  
 
+#### titanic_survival_2025-07-18
+> My first Kaggle challenge: **Titanic - Machine Learning from Disaster**  
+This prject explores survival prediction on the Titanic based on passenger data.  
+See `titanic_survival_2025-07-18/README.md` for detailed progress and documentation.
 
-#### `titanic_survival_2025-07-18/`:  
-My first Kaggle challenge: **Titanic - Machine Learning from Disaster**
-This project focuses on building predictive models to determine passenger survival on the Titanic.  
-
-**Progress so far (first attempt - July 2025 - based on Kaggle tutorial)**:  
-- Baseline model (`titanic_model_v1.ipynb`) built using **TensorFlow Decision Forests (TFDF)**
-- Followed Kaggle's official tutorial as initial guidance
-- Implemented ensemble strategy (100 trees, varied seeds)
-- Successfully generated and submitted `submission.csv`
-- Kaggle Public Score: **0.80622**
-
-**Next steps**:
-- Begin EDA (exploratory data analysis) to understand feature patterns
-- Add engineered features (e.g., `Title`, `FamilySize`, `IsAlone`)
-- Try alternative models (XGBoost, RandomForest)
-- Apply validation techniques to avoid overfitting
 
 More challenges will be added as I progress through my data science learning.  
 
