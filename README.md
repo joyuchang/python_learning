@@ -6,7 +6,7 @@
 
 ## Repository Structure
 
-### `practice/`  
+### `practice/` **[WIP]**  
 > Categorized learning notebooks for foundational Python, data structures, and logic
 - `basics/`: Core syntax - sequential statements, conditionals, input/output, f-strings, etc.
 - `collections/`: Python collections - lists, dictionaries, tuples, and more
@@ -19,10 +19,19 @@
 ### practice_sets  
 > Mixed practice sets.  
 
-### projects **[WIP]**
+### projects **[WIP]**  
 > Mini data anaylysis projects with real-world or industry-inspired context (currently in planning).  
 > - Planned folder for future data analysis projects.
 > - Currently empty and not yet added to the repository.
+
+### kaggle-projects **[WIP]**  
+> Real-world machine learning projects from Kaggle competitions (in progress).  
+This folder includes structured project folders for hands-on practice using real competition datasets.  
+
+Currently working on:  
+- `titanic_survival_2025-07-18/`: My first Kaggle challenge - predicting survival on the Titanic. Include EDA, model building, and submission workflow.  
+
+More challenges will be added as I progress through my data science learning.  
 
 ### debug_notebook
 
