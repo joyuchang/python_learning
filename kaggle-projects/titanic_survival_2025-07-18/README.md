@@ -5,23 +5,28 @@ The project follows a step-by-step structure including data exploration, baselin
 ## Project Structure
 ```
 titanic_survival_2025-07-18/
-├── data/                             # Raw competition data (ignored in .git)
+├── data/                                      # Raw competition data (ignored in .git)
 ├── notebooks/
-│   ├── titanic_model_v1.ipynb        # First version model using TFDF + ensemble
-│   └── eda_titanic_based_on_v1_submission_2025-07-21.ipynb  # EDA notebook based on v1 submission
+│   ├── titanic_model_v1_2025-07-21.ipynb      # First version model using TFDF + ensemble
+│   ├── titanic_model_v1_clean.ipynb           # Cleaned version for Kaggle submission
+│   ├── titanic_model_v2_2025-07-22_WIP.ipynb      # Second version with feature engineering and multiple model testing
+│   ├── eda_titanic_v1_based_on_raw_data_2025-07-21.ipynb  # EDA notebook based on raw data
+│   └── eda_titanic_v2_feature_analysis_2025-07-22.ipynb   # EDA notebook for feature analysis
 ├── output/
-│   └── submission.csv                # Submission file
-└── README.md                         # This file
+│   └── titanic_submission_v1_2025-07-21.csv   # Submission file
+└── README.md                                  # This file
 
 ```
 
-## Progress so far (first attempt - July 2025 - based on Kaggle tutorial)  
+## Progress Overview - *first attempt - July 2025*
+> Based on Kaggle's official Titanic tutorial, then extended with my own EDA and model refinement.
 - Baseline model (`titanic_model_v1.ipynb`) built using **TensorFlow Decision Forests (TFDF)**  
 - Followed Kaggle's official tutorial as initial guidance  
 - Implemented ensemble strategy (100 trees, varied seeds)  
-- Successfully generated and submitted `submission.csv`  
+- Generated and submitted first prediction file: `submission.csv`  
 - Kaggle Public Score: **0.80622**  
-- Completed **EDA** based on the raw training date  
+- Completed **EDA** on original dataset
+- Created `titanic_model_v1_clean.ipynb` for Kaggle submission (lightweight, no output)
 
 ## Key EDA insights  
 - **Sex** and **Pclass** are highly correlated with survival  
@@ -30,7 +35,7 @@ titanic_survival_2025-07-18/
     → Higher fare, slightly higher survival rate  
 - **Age** showed weak correlation  
     → Younger passengers did not significantly influence survival  
-- Results visualized using count plots, histograms, heatmaps, and bar plots  
+- Visualization: count plots, histograms, heatmaps, and bar plots  
 
 ## Next steps
 - Add **feature engineering** (e.g., `Title`, `FamilySize`, `IsAlone`)  
