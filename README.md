@@ -37,6 +37,7 @@ Progress so far:
 - Performed EDA (`eda_titanic_v1_based_on_raw_data_2025-07-21.ipynb`) on original dataset
 - Created lightweight version for Kaggle submission: `titanic_model_v1_clean.ipynb`
 - Achieved Kaggle public score: **0.80622**
+
 *See `titanic_survival_2025-07-18/README.md` for detailed progress and documentation.*
 
 
